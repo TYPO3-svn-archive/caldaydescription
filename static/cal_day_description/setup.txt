@@ -1,0 +1,7 @@
+plugin.tx_cal_controller {
+        view {
+                list {
+                        caldaydescription = sample.xml
+                }
+        }
+}
