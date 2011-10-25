@@ -1,7 +1,3 @@
-plugin.tx_cal_controller {
-        view {
-                list {
-                        caldaydescription = sample.xml
-                }
-        }
+plugin.tx_caldaydescription {
+        descriptionLL = EXT:caldaydescription/static/locallang.xml
 }
