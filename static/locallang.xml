@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes" ?>
 <T3locallang>
 	<meta type="array">
 		<description></description>
@@ -35,7 +35,7 @@
 <label index="l_cdd_20110403">Laetare</label>
 <label index="l_cdd_20110410">Judika</label>
 <label index="l_cdd_20110417">Palmsonntag</label>
-<label index="l_cdd_20110421">Gr&#252;ndonnerstag</label>
+<label index="l_cdd_20110421">Gründonnerstag</label>
 <label index="l_cdd_20110422">Karfreitag</label>
 <label index="l_cdd_20110424">Ostersonntag</label>
 <label index="l_cdd_20110425">Ostermontag</label>
@@ -73,7 +73,7 @@
 <label index="l_cdd_20111031">Reformationstag</label>
 <label index="l_cdd_20111106">Drittletzter Sonntag des Kirchenjahres</label>
 <label index="l_cdd_20111113">Vorletzter Sonntag des Kirchenjahres</label>
-<label index="l_cdd_20111116">Bu&#223;- und Bettag</label>
+<label index="l_cdd_20111116">Buß- und Bettag</label>
 <label index="l_cdd_20111120">Ewigkeitssonntag</label>
 <label index="l_cdd_20111127">1. Advent</label>
 <label index="l_cdd_20111204">2. Advent</label>
@@ -98,7 +98,7 @@
 <label index="l_cdd_20120318">Laetare</label>
 <label index="l_cdd_20120325">Judika</label>
 <label index="l_cdd_20120401">Palmsonntag</label>
-<label index="l_cdd_20120405">Gr&#252;ndonnerstag</label>
+<label index="l_cdd_20120405">Gründonnerstag</label>
 <label index="l_cdd_20120406">Karfreitag</label>
 <label index="l_cdd_20120408">Ostersonntag</label>
 <label index="l_cdd_20120409">Ostermontag</label>
@@ -139,7 +139,7 @@
 <label index="l_cdd_20121104">22. Sonntag nach Trinitatis</label>
 <label index="l_cdd_20121111">Drittletzter Sonntag des Kirchejahres</label>
 <label index="l_cdd_20121118">Vorletzter Sonntag des Kirchenjahres</label>
-<label index="l_cdd_20121121">Bu&#223;- und Bettag</label>
+<label index="l_cdd_20121121">Buß- und Bettag</label>
 <label index="l_cdd_20121125">Ewigkeitssonntag</label>
 <label index="l_cdd_20121202">1. Advent</label>
 <label index="l_cdd_20121209">2. Advent</label>
@@ -163,7 +163,7 @@
 <label index="l_cdd_20130310">Laetare</label>
 <label index="l_cdd_20130317">Judika</label>
 <label index="l_cdd_20130324">Palmsonntag</label>
-<label index="l_cdd_20130328">Gr&#252;ndonnerstag</label>
+<label index="l_cdd_20130328">Gründonnerstag</label>
 <label index="l_cdd_20130329">Karfreitag</label>
 <label index="l_cdd_20130331">Ostersonntag</label>
 <label index="l_cdd_20130401">Ostermontag</label>
@@ -205,7 +205,7 @@
 <label index="l_cdd_20131103">23. Sonntag nach Trinitatis</label>
 <label index="l_cdd_20131110">Drittletzte Sonntag des Kirchenjahres</label>
 <label index="l_cdd_20131117">Vorletzter Sonntag des Kirchenjahres</label>
-<label index="l_cdd_20131120">Bu&#223;- und Bettag</label>
+<label index="l_cdd_20131120">Buß- und Bettag</label>
 <label index="l_cdd_20131124">Ewigkeitssonntag</label>
 <label index="l_cdd_20131201">1. Advent</label>
 <label index="l_cdd_20131208">2. Advent</label>
@@ -233,7 +233,7 @@
 <label index="l_cdd_20140330">Laetare</label>
 <label index="l_cdd_20140406">Judika</label>
 <label index="l_cdd_20140413">Palmsonntag</label>
-<label index="l_cdd_20140417">Gr&#252;ndonnerstag</label>
+<label index="l_cdd_20140417">Gründonnerstag</label>
 <label index="l_cdd_20140418">Karfreitag</label>
 <label index="l_cdd_20140420">Ostersonntag</label>
 <label index="l_cdd_20140421">Ostermontag</label>
@@ -272,7 +272,7 @@
 <label index="l_cdd_20141102">20. Sonntag nach Trinitatis</label>
 <label index="l_cdd_20141109">Drittletzer Sonntag des Kirchenjahres</label>
 <label index="l_cdd_20141116">Vorletzter Sonntag des Kirchenjahres</label>
-<label index="l_cdd_20141119">Bu&#223;- und Bettag</label>
+<label index="l_cdd_20141119">Buß- und Bettag</label>
 <label index="l_cdd_20141123">Ewigkeitssonntag</label>
 <label index="l_cdd_20141130">1. Advent</label>
 <label index="l_cdd_20141207">2. Advent</label>
@@ -298,7 +298,7 @@
 <label index="l_cdd_20150315">Laetare</label>
 <label index="l_cdd_20150322">Judika</label>
 <label index="l_cdd_20150329">Palmsonntag</label>
-<label index="l_cdd_20150402">Gr&#252;ndonnerstag</label>
+<label index="l_cdd_20150402">Gründonnerstag</label>
 <label index="l_cdd_20150403">Karfreitag</label>
 <label index="l_cdd_20150405">Ostersonntag</label>
 <label index="l_cdd_20150406">Ostermontag</label>
@@ -339,7 +339,7 @@
 <label index="l_cdd_20151101">22. Sonntag nach Trinitatis</label>
 <label index="l_cdd_20151108">Drittletzer Sonntag des Kirchenjahres</label>
 <label index="l_cdd_20151115">Vorletzer Sonntag des Kirchenjahres</label>
-<label index="l_cdd_20151118">Bu&#223;- und Bettag</label>
+<label index="l_cdd_20151118">Buß- und Bettag</label>
 <label index="l_cdd_20151122">Ewigkeitssonntag</label>
 <label index="l_cdd_20151129">1. Advent</label>
 <label index="l_cdd_20151206">2. Advent</label>
@@ -364,7 +364,7 @@
 <label index="l_cdd_20160306">Laetare</label>
 <label index="l_cdd_20160313">Judika</label>
 <label index="l_cdd_20160320">Palmsonntag</label>
-<label index="l_cdd_20160324">Gr&#252;ndonnerstag</label>
+<label index="l_cdd_20160324">Gründonnerstag</label>
 <label index="l_cdd_20160325">Karfreitag</label>
 <label index="l_cdd_20160327">Ostersonntag</label>
 <label index="l_cdd_20160328">Ostermontag</label>
@@ -406,7 +406,7 @@
 <label index="l_cdd_20161031">Reformationstag</label>
 <label index="l_cdd_20161106">Drittletzer Sonntag des Kirchenjahres</label>
 <label index="l_cdd_20161113">Vorletzter Sonntag des Kirchenjahres</label>
-<label index="l_cdd_20161116">Bu&#223;- und Bettag</label>
+<label index="l_cdd_20161116">Buß- und Bettag</label>
 <label index="l_cdd_20161120">Ewigkeitssonntag</label>
 
 
