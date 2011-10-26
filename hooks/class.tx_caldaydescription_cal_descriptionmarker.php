@@ -47,30 +47,31 @@ class tx_caldaydescription_cal_descriptionmarker {
 		global $LANG;
  		global $xmlData;
 		
-		if (($view=='day')&&(!is_null($top->conf['getdate']))) {
-			$sims['###CALDAYDESCRIPTION###']=$xmlData['data']['default']['l_cdd_'.$top->conf['getdate']];
-		} elseif (($view=='week')&&(!is_null($top->days))){
-			foreach ($top->days as $day) {
-				$sims['###CALDAYDESCRIPTION'.$day->weekdayNumber.'###'] = $xmlData['data']['default']['l_cdd_'.$day->Ymd];
+ 		if (is_array($xmlData)) {
+			if (($view=='day')&&(!is_null($top->conf['getdate']))) {
+				$sims['###CALDAYDESCRIPTION###']=$xmlData['data']['default']['l_cdd_'.$top->conf['getdate']];
+			} elseif (($view=='week')&&(!is_null($top->days))){
+				foreach ($top->days as $day) {
+					$sims['###CALDAYDESCRIPTION'.$day->weekdayNumber.'###'] = $xmlData['data']['default']['l_cdd_'.$day->Ymd];
+				}
+			} elseif (($view=='event')&&(!is_null($top->conf['getdate']))){
+				$sims['###CALDAYDESCRIPTION###']=$xmlData['data']['default']['l_cdd_'.$top->conf['getdate']];
+	
+			} elseif (($view=='list')&&(!is_null($top->cachedValueArray['start_date']))){
+				$sims['###CALDAYDESCRIPTION###']=$xmlData['data']['default']['l_cdd_'.$top->cachedValueArray['start_date']];
+			} elseif (($view=='locationgrid')&&(is_array($top->objectsInList))){
+				$dayItems = 0;
+				foreach (array_keys($top->objectsInList) as $datekey) {
+					$sims['###CALDAYDESCRIPTION'.intval($dayItems).'###'] = $xmlData['data']['default']['l_cdd_'.$datekey];
+					$dayItems++;
+					$sims['###CALDAYDESCRIPTION###'][] = $xmlData['data']['default']['l_cdd_'.$datekey];
+				}
+			}else {
+				// Found an unsupported view? Please enable the debug statements and send the resuslt with a description to the EXTs author.	
+				//debug($top->objectsInList);
+				//debug($view,'view');
 			}
-		} elseif (($view=='event')&&(!is_null($top->conf['getdate']))){
-			$sims['###CALDAYDESCRIPTION###']=$xmlData['data']['default']['l_cdd_'.$top->conf['getdate']];
-
-		} elseif (($view=='list')&&(!is_null($top->cachedValueArray['start_date']))){
-			$sims['###CALDAYDESCRIPTION###']=$xmlData['data']['default']['l_cdd_'.$top->cachedValueArray['start_date']];
-		} elseif (($view=='locationgrid')&&(is_array($top->objectsInList))){
-			$dayItems = 0;
-			foreach (array_keys($top->objectsInList) as $datekey) {
-				$sims['###CALDAYDESCRIPTION'.intval($dayItems).'###'] = $xmlData['data']['default']['l_cdd_'.$datekey];
-				$dayItems++;
-				$sims['###CALDAYDESCRIPTION###'][] = $xmlData['data']['default']['l_cdd_'.$datekey];
-			}
-		}else {
-			// Found an unsupported view? Please enable the debug statements and send the resuslt with a description to the EXTs author.	
-			//debug($top->objectsInList);
-			//debug($view,'view');
-		}
-
+ 		}
 	}
  	
 }
