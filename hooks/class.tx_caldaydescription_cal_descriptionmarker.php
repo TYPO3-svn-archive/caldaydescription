@@ -46,7 +46,7 @@ class tx_caldaydescription_cal_descriptionmarker {
 	function postSearchForObjectMarker($top, $template, &$sims, $rems, $wrapped, $view) {
 		global $LANG;
  		global $xmlData;
-		
+
  		if (is_array($xmlData)) {
 			if (($view=='day')&&(!is_null($top->conf['getdate']))) {
 				$sims['###CALDAYDESCRIPTION###']=$xmlData['data']['default']['l_cdd_'.$top->conf['getdate']];
