@@ -3,7 +3,7 @@
 ########################################################################
 # Extension Manager/Repository config file for ext "caldaydescription".
 #
-# Auto generated 06-08-2011 22:49
+# Auto generated 26-10-2011 19:36
 #
 # Manual updates:
 # Only the data in the array - everything else is removed by next
@@ -21,7 +21,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'conflicts' => '',
 	'priority' => '',
 	'module' => '',
-	'state' => 'beta',
+	'state' => 'stable',
 	'internal' => '',
 	'uploadfolder' => 0,
 	'createDirs' => '',
@@ -29,17 +29,20 @@ $EM_CONF[$_EXTKEY] = array(
 	'clearCacheOnLoad' => 0,
 	'lockType' => '',
 	'author_company' => '',
-	'version' => '0.0.0',
+	'version' => '1.1.0',
 	'constraints' => array(
 		'depends' => array(
-			'cal' => '',
+			'cal' => '1.5.0',
+            'typo3' => '4.5.5-6.1.99',
 		),
 		'conflicts' => array(
 		),
 		'suggests' => array(
 		),
 	),
-	'_md5_values_when_last_written' => 'a:8:{s:9:"ChangeLog";s:4:"54da";s:10:"README.txt";s:4:"ee2d";s:12:"ext_icon.gif";s:4:"1bdc";s:14:"ext_tables.php";s:4:"a5f7";s:19:"doc/wizard_form.dat";s:4:"c5b6";s:20:"doc/wizard_form.html";s:4:"b350";s:40:"static/cal_day_description/constants.txt";s:4:"d41d";s:36:"static/cal_day_description/setup.txt";s:4:"ebcc";}',
+	'_md5_values_when_last_written' => 'a:10:{s:9:"ChangeLog";s:4:"54da";s:10:"README.txt";s:4:"ee2d";s:12:"ext_icon.gif";s:4:"1bdc";s:17:"ext_localconf.php";s:4:"c5f3";s:14:"ext_tables.php";s:4:"a5f7";s:14:"doc/manual.sxw";s:4:"5b29";s:58:"hooks/class.tx_caldaydescription_cal_descriptionmarker.php";s:4:"7f6e";s:20:"static/locallang.xml";s:4:"2077";s:40:"static/cal_day_description/constants.txt";s:4:"d41d";s:36:"static/cal_day_description/setup.txt";s:4:"9290";}',
+	'suggests' => array(
+	),
 );
 
 ?>
